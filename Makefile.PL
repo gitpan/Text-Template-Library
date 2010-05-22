@@ -5,6 +5,7 @@ WriteMakefile(
     NAME              => 'Text::Template::Library',
     VERSION_FROM      => 'lib/Text/Template/Library.pm',
     PREREQ_PM         => {
+			  'Class::Member'=>1.6,
 			 },
     ABSTRACT_FROM     => 'lib/Text/Template/Library.pm',
     AUTHOR            => 'Torsten Foertsch <torsten.foertsch@gmx.net>',
