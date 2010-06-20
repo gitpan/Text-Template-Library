@@ -1,5 +1,8 @@
 Revision history for Perl extension Text::Template::Library.
 
+0.04  Sun Jun 20 20:25:55 CEST 2010
+      - make the test pass with perl 5.8.9 hopefully
+
 0.03  Sat May 22 15:47:56 CEST 2010
       - Class::Member added to Makefile.PL as prerequisite.
 

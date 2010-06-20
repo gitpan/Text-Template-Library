@@ -102,7 +102,7 @@ hu
  %]
 blah
 TMPL
-my $expected_line_number=($]<5.01 ? 10 : 8);
+my $expected_line_number=($]<5.008009 ? 10 : 8);
 
 @arr=qw/1 2/;
 $tmpl=Text::Template::Library->new

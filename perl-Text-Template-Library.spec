@@ -4,7 +4,7 @@ Group:        Development/Libraries/Perl
 Requires:     perl = %{perl_version}
 Autoreqprov:  on
 Summary:      Text::Template::Library
-Version:      0.02
+Version:      0.03
 Release:      1
 Source:       Text-Template-Library-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}-build

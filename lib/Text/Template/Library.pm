@@ -14,7 +14,7 @@ use Class::Member::HASH qw/_library _output _evalcache _broken _broken_arg
 use Exporter qw/import/;
 our @EXPORT_OK=qw/fill_in_module/;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub _acquire_data {
   my $I=shift;
